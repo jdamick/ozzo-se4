@@ -1,0 +1,6 @@
+package: github.com/jdamick/ozzo-se4-middleware
+import:
+- package: github.com/cloudfoundry/gosigar
+- package: github.com/go-ozzo/ozzo-routing
+  subpackages:
+  - content

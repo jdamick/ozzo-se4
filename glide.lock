@@ -1,0 +1,31 @@
+hash: 395a72895cf16b26f8a85ee259680dd34db6679ccc647351cb012498a786e3c5
+updated: 2017-03-17T12:38:30.1576516-04:00
+imports:
+- name: github.com/cloudfoundry/gosigar
+  version: dfaa4d491586af21e1ce06028df3926389a99654
+- name: github.com/go-ozzo/ozzo-routing
+  version: f75b4f27044064ca28f48a5df39ab8f7af54d14f
+  subpackages:
+  - content
+- name: github.com/golang/gddo
+  version: 72302b972abba39585150723aea3cf343e99437c
+  subpackages:
+  - httputil/header
+testImports:
+- name: github.com/gopherjs/gopherjs
+  version: 0cc212b4ef1943b61e894a7d56490575b3216439
+  subpackages:
+  - js
+- name: github.com/jtolds/gls
+  version: bb0351aa7eb6f322f32667d51375f26a2bca6628
+- name: github.com/smartystreets/assertions
+  version: c9ee7d9e9a2aeec0bee7c4a516f3e0ad7cb7e558
+  subpackages:
+  - internal/go-render/render
+  - internal/oglematchers
+- name: github.com/smartystreets/goconvey
+  version: 3bd662eac601ad6436e64776af2e112069eb2edc
+  subpackages:
+  - convey
+  - convey/gotest
+  - convey/reporting
