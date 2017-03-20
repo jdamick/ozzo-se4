@@ -51,3 +51,4 @@ curl -s http://localhost:8080/service/status|jq ''
   "go_numroutines": "5"
 }
 ```
+
