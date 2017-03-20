@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jdamick/ozzo-routing.svg?branch=master)](https://travis-ci.org/jdamick/ozzo-routing)
+
 # ozzo-se4
 
 Simple Standard Service Endpoints for Ozzo
