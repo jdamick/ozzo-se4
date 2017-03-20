@@ -50,7 +50,6 @@ func Uname(buf *UnameInfo) (err error) {
 }
 
 func sysctl(kernVarName string) (string, error) {
-	// not the fastest, but it works
 	cmd := exec.Command("sysctl", "-n", kernVarName)
 	var out bytes.Buffer
 	cmd.Stdout = &out
