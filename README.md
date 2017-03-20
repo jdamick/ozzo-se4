@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jdamick/ozzo-routing.svg?branch=master)](https://travis-ci.org/jdamick/ozzo-routing)
+[![Build Status](https://travis-ci.org/jdamick/ozzo-se4.svg?branch=master)](https://travis-ci.org/jdamick/ozzo-se4)
 
 # ozzo-se4
 
