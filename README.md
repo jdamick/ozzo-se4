@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/jdamick/ozzo-se4.svg?branch=master)](https://travis-ci.org/jdamick/ozzo-se4)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jdamick/ozzo-se4)](https://goreportcard.com/report/github.com/jdamick/ozzo-se4)
 
 # ozzo-se4
 

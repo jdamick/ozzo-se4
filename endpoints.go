@@ -302,7 +302,7 @@ func (s *StandardEndpoints) RegisterEndpoints(group *routing.RouteGroup) {
 	textDataWriter := &TextPlainDataWriter{}
 
 	// successful response is a 200 OK with a content of the text "OK" (including quotes) and a media type of "plain/text"
-	// failed response is a 5XX reponse with either a 500 or 503 response preferred.
+	// failed response is a 5XX response with either a 500 or 503 response preferred.
 	group.Get("/healthcheck/gtg", func(c *routing.Context) error {
 		result := true
 		if s.gtgCheck != nil {
@@ -321,7 +321,7 @@ func (s *StandardEndpoints) RegisterEndpoints(group *routing.RouteGroup) {
 	})
 
 	// successful response is a 200 OK with a content of the text "OK" (including quotes) and a media type of "plain/text"
-	// failed response is a 5XX reponse with either a 500 or 503 response preferred.
+	// failed response is a 5XX response with either a 500 or 503 response preferred.
 	group.Get("/healthcheck/asg", func(c *routing.Context) error {
 		c.SetDataWriter(&content.HTMLDataWriter{})
 
